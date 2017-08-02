@@ -45,6 +45,10 @@ public class UtilAll {
     public static final String yyyyMMddHHmmss = "yyyyMMddHHmmss";
 
 
+    /**
+     * 根据JVM 获得 进程 ID
+     * @return
+     */
     public static int getPid() {
         RuntimeMXBean runtime = ManagementFactory.getRuntimeMXBean();        
         String name = runtime.getName(); // format: "pid@hostname"

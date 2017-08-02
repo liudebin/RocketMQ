@@ -26,6 +26,10 @@ import java.util.List;
 
 
 /**
+ *  topic的一些信息？ 只是用来打印吗
+ */
+
+/**
  * @author shijia.wxr
  */
 public class TopicPublishInfo {

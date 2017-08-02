@@ -59,6 +59,11 @@ import java.util.concurrent.locks.ReentrantLock;
 
 
 /**
+ * 到底做了什么？ todo
+ *
+ */
+
+/**
  * @author shijia.wxr
  */
 public class MQClientInstance {

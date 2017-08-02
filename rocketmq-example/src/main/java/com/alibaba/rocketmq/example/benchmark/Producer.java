@@ -65,6 +65,9 @@ public class Producer {
 
         final LinkedList<Long[]> snapshotList = new LinkedList<Long[]>();
 
+        /**
+         * timer 的固定频率 执行任务
+         */
         timer.scheduleAtFixedRate(new TimerTask() {
             @Override
             public void run() {
